@@ -9,7 +9,7 @@ from crud_functions import initiate_db, get_all_products
 
 
 
-api = '7617377965:AAGutcKCqCcKpJnC-vS2PtQD9VjMYuF4rPM'
+api = ''
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
